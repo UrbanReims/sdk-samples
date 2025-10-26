@@ -1,0 +1,29 @@
+{
+    "app": {
+        "auto_start": true,
+        "date": "2025-10-26T16:40:43.605218",
+        "files": {
+            "app_template.py": "61746702ee8adee1cc482a7a2eee2a5655356aaa14fbeda1d0e600a6ce40267b",
+            "cp.py": "140c47351a999e086df0f7c468402ed0184657b8bf93ca478243fad653797a45",
+            "package.ini": "7a50a70a9166e9f6691b4e8aab2b0b8111c1596bf5392d60fdd896955a98fe71",
+            "readme.md": "fbc1564b6ddc6361219006a8b3c0578ab8f86245e39e8582f49fe25c4cd530da",
+            "start.sh": "db4f14e869dfbbd8f77d5c7f673c45d908174b43faf9a932cc709b761bf4f9df"
+        },
+        "firmware_major": 7,
+        "firmware_minor": 25,
+        "name": "app_template",
+        "notes": "SDK Application",
+        "reboot": true,
+        "restart": true,
+        "uuid": "b705ed72-dbfb-44b1-8b41-f507375d5853",
+        "vendor": "Ericsson/Cradlepoint",
+        "version_major": 1,
+        "version_minor": 0,
+        "version_patch": 0
+    },
+    "pmf": {
+        "version_major": 1,
+        "version_minor": 0,
+        "version_patch": 0
+    }
+}

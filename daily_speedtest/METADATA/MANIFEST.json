@@ -1,13 +1,13 @@
 {
     "app": {
         "auto_start": true,
-        "date": "2025-10-26T12:03:07.946834",
+        "date": "2025-10-26T16:41:21.550959",
         "files": {
             "_csv.py": "ec0962f30466dcb95d584081bd9a24211524c5fe4e1e3782f7f14c8b9aee1548",
-            "cp.py": "140c47351a999e086df0f7c468402ed0184657b8bf93ca478243fad653797a45",
+            "cp.py": "82c352b231ccb0e5ded7c8a0e175913bca2fc22065013ff9c5532f14f13e27b2",
             "csv.py": "0f46b397bda6998a4b7083478f22cd02bd6454a3dd1219a5874562eb3784244d",
             "daily_speedtest.py": "54e1aa65bdd21324c8a58e7f5d1e625d012cde3ed1b94845e790a079de870531",
-            "package.ini": "ad9968a2fdc23d5c975a94c3b380ca5aa978689be28fc40291ffd86f5af2c2d2",
+            "package.ini": "f5eb6f3b1ac6b5356fc2c3fd5d235d0ad9cafe3dd4dcbfddd6bf5202384f4d55",
             "readme.md": "e499ef328852451f057557551951b90cc7d01508412c1c6ffe710cbf86eca741",
             "readme.txt": "6e111399eabac618a3788e456b77370ad880e47d5642eaf8093dd6475e160ace",
             "speedtest.py": "c9e65ec60ebc450e29a25cee0dfa558c2007922194318cbdb1c9291cffc59cfc",
@@ -24,7 +24,7 @@
         "vendor": "Cradlepoint",
         "version_major": 1,
         "version_minor": 0,
-        "version_patch": 1
+        "version_patch": 2
     },
     "pmf": {
         "version_major": 1,

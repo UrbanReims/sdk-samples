@@ -1073,16 +1073,16 @@ class EventingCSClient(CSClient):
                 - timestamp (str): Timestamp when the asset ID was retrieved
         """
         try:
-            asset_id = self.get('config/system/asset_id')
-            if asset_id is None:
-                return {"asset_id": "", "timestamp": None}
+            custom1 = self.get('config/system/custom1')
+            if custom1 is None:
+                return {"custom1": "", "timestamp": None}
             
             return {
-                "asset_id": asset_id,
+                "custom1": custom1,
                 "timestamp": datetime.now().isoformat()
             }
         except Exception as e:
-            self.log(f"Error getting device asset ID: {e}")
+            self.log(f"Error getting device custom1 field: {e}")
             return None
 
     def set_description(self, description: str) -> Dict[str, Any]:
@@ -1111,7 +1111,7 @@ class EventingCSClient(CSClient):
             self.log(f"Error setting device description: {e}")
             return None
 
-    def set_asset_id(self, asset_id: str) -> Dict[str, Any]:
+    def set_asset_id(self, custom1: str) -> Dict[str, Any]:
         """Set device asset ID in system configuration.
         
         Args:
@@ -1124,17 +1124,17 @@ class EventingCSClient(CSClient):
                 - timestamp (str): Timestamp when the asset ID was set
         """
         try:
-            result = self.put('config/system/asset_id', asset_id)
+            result = self.put('config/system/custom1', custom1)
             if result is None:
                 return None
             
             return {
                 "success": True,
-                "asset_id": asset_id,
+                "custom1": custom1,
                 "timestamp": datetime.now().isoformat()
             }
         except Exception as e:
-            self.log(f"Error setting device asset ID: {e}")
+            self.log(f"Error setting device custom1 field: {e}")
             return None
 
     def set_name(self, name: str) -> Dict[str, Any]:
@@ -6805,7 +6805,7 @@ def set_description(description: str) -> Optional[Dict[str, Any]]:
         return None
 
 
-def set_asset_id(asset_id: str) -> Optional[Dict[str, Any]]:
+def set_asset_id(custom1: str) -> Optional[Dict[str, Any]]:
     """Set device asset ID in system configuration.
     
     Args:
@@ -6818,7 +6818,7 @@ def set_asset_id(asset_id: str) -> Optional[Dict[str, Any]]:
             - timestamp (str): Timestamp when the asset ID was set
     """
     try:
-        return _cs_client.set_asset_id(asset_id)
+        return _cs_client.set_asset_id(custom1)
     except Exception as e:
         log(f"Error setting device asset ID: {e}")
         return None
