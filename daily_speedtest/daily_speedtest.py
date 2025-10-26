@@ -1,4 +1,4 @@
-# daily_speedtest - run an ookla speedtest daily at configured hours and put results to user defined field (asset_id)
+# daily_speedtest - run an ookla speedtest daily at configured hours and put results to user defined field (custom1)
 
 import time
 import json
@@ -7,8 +7,8 @@ import cp
 from speedtest import Speedtest
 
 # Hours of day to run speedtests. 24-hour format.  Default is 8am, 12pm, 4pm.
-testing_hours = [8, 12, 16]
-results_field = 'config/system/asset_id'
+testing_hours = [8, 12, 16, 20, 21]
+results_field = 'config/system/custom1'
 default_appdata = {"testing_hours": testing_hours, "results_field": results_field}
 last_test_dates = {}
 
