@@ -1,0 +1,34 @@
+{
+    "app": {
+        "auto_start": true,
+        "date": "2025-10-26T12:03:07.946834",
+        "files": {
+            "_csv.py": "ec0962f30466dcb95d584081bd9a24211524c5fe4e1e3782f7f14c8b9aee1548",
+            "cp.py": "140c47351a999e086df0f7c468402ed0184657b8bf93ca478243fad653797a45",
+            "csv.py": "0f46b397bda6998a4b7083478f22cd02bd6454a3dd1219a5874562eb3784244d",
+            "daily_speedtest.py": "54e1aa65bdd21324c8a58e7f5d1e625d012cde3ed1b94845e790a079de870531",
+            "package.ini": "ad9968a2fdc23d5c975a94c3b380ca5aa978689be28fc40291ffd86f5af2c2d2",
+            "readme.md": "e499ef328852451f057557551951b90cc7d01508412c1c6ffe710cbf86eca741",
+            "readme.txt": "6e111399eabac618a3788e456b77370ad880e47d5642eaf8093dd6475e160ace",
+            "speedtest.py": "c9e65ec60ebc450e29a25cee0dfa558c2007922194318cbdb1c9291cffc59cfc",
+            "start.sh": "d6db26227851842a4635dc043486b3a9a74132724dce6ad2220bf8b418abbd53",
+            "timeit.py": "d0884d28561a0dafce6492e8f526ad53b0ad49f38e9f124573c749a4941447f4"
+        },
+        "firmware_major": 7,
+        "firmware_minor": 24,
+        "name": "daily_speedtest",
+        "notes": "Daily Speedtests (SDK Appdata)",
+        "reboot": true,
+        "restart": true,
+        "uuid": "ba477a91-4f9f-4438-8840-b7f7784b8d51",
+        "vendor": "Cradlepoint",
+        "version_major": 1,
+        "version_minor": 0,
+        "version_patch": 1
+    },
+    "pmf": {
+        "version_major": 1,
+        "version_minor": 0,
+        "version_patch": 0
+    }
+}
